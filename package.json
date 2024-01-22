@@ -1,0 +1,23 @@
+{
+  "name": "namasthe_react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jeevamk/Namasthe-React.git"
+  },
+  "keywords": [],
+  "author": "jeeva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jeevamk/Namasthe-React/issues"
+  },
+  "homepage": "https://github.com/Jeevamk/Namasthe-React#readme",
+  "devDependencies": {
+    "parcel": "^2.11.0"
+  }
+}
