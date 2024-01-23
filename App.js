@@ -1,24 +1,36 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-const parent = React.createElement(
-  "div",
-  { id: "parent" },
-  [
-    React.createElement("div", { id: "child" }, [
-      React.createElement("h1", {}, "Namaste React 💖"),
-      React.createElement("h2", {}, "by jeeva"),
-    ]),
-  ],
-  React.createElement("div", { id: "child" }, [
-    React.createElement("h1", {}, "h1 tag"),
-    React.createElement("h2", {}, "h2 tag"),
-  ])
-);
+//React Element//
+const heading = <span style={{color:"red"}}>hello</span>
+const image = <img src="https://res.cloudinary.com/dsqsfves6/image/upload/v1700634388/dkbq0lyxeuxuri1rtzzy.png"></img>
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(parent);
+const title = 
+( <div id="container">
+    
+    <h1 className="head"> {heading} Namasthe React 🚀</h1>
+</div>
+)
 
-// const heading = React.createElement("h1",{id:"head", style :{color:"brown"}},"hello world from react")
-// const root = ReactDOM.createRoot(document.getElementById('root'))
+// React Fuctional Component
+const HeadingComponent = () => (
+    <div id="container">
+        {title}
+        {image}
+       <h1 className="heading">Hello Namasthe React Functional Component</h1>
+    </div>
+    );
+
+
+
+// const Heading = () => {
+//     return <h1>Hello Namasthe</h1>
+// }
+
+
+
+const root = ReactDOM.createRoot(document.getElementById('root'))
+root.render(<HeadingComponent/>)
+
 // root.render(heading)
+
