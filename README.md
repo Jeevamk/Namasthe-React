@@ -1,4 +1,4 @@
-//parcel
+# parcel
 -Local server
 -HMR(hot module replacement)
 -Faster developement
@@ -7,9 +7,9 @@
 -Code splitting
 
 
-//JSx
+# JSx
 Javsscript XML
 It is a js syntax which is easier to create React  Element
 
-//Babel
+# Babel
 JS compiler
